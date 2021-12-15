@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div class="body-cont">
+		<h1>TERCER EJERCICIO</h1>
+		<h2>Calculadora de matrices con funciones de orden superior</h2>
+		<form action="add">
+			<div class="uno">
+				<div class="tres">
+					<input type="text" name="dim" id="dimension" placeholder="Ingrese la dimension de la(s) matriz(ces)" value="3">
+					<a onclick="redimension()">Dimension</a>
+				</div>
+				<div class="cuatro">
+					<div class="cinco">
+						<table border="1" id="1">
+							<tr>
+								<td><input type="text" name="100"></td>
+								<td><input type="text" name="101"></td>
+								<td><input type="text" name="102"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="110"></td>
+								<td><input type="text" name="111"></td>
+								<td><input type="text" name="112"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="120"></td>
+								<td><input type="text" name="121"></td>
+								<td><input type="text" name="122"></td>
+							</tr>
+						</table>
+					</div>
+					<div class="seis">
+						<table border="1" id="2">
+							<tr>
+								<td><input type="text" name="200"></td>
+								<td><input type="text" name="201"></td>
+								<td><input type="text" name="202"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="210"></td>
+								<td><input type="text" name="211"></td>
+								<td><input type="text" name="212"></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="220"></td>
+								<td><input type="text" name="221"></td>
+								<td><input type="text" name="222"></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="siete">
+					<div class="ocho">
+						<input type="submit" onmouseenter="cambios(this)" value="Matriz Inversa" style="border-bottom: 2px solid black;">
+						<input type="submit" onmouseenter="cambios(this)" value="Suma">
+					</div>
+					<div>
+						<input type="submit" onmouseenter="cambios(this)" value="Resta" style="border-bottom: 2px solid black;">
+						<input type="submit" onmouseenter="cambios(this)" value="Multiplicacion">
+					</div>
+				</div>
+			</div>
+			<div class="dos">
+				<h3>Resultado</h3>
+				<table border="1" id="r">
+					<tr>
+						<td><input type="text" name="r00"></td>
+						<td><input type="text" name="r01"></td>
+						<td><input type="text" name="r02"></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="r10"></td>
+						<td><input type="text" name="r11"></td>
+						<td><input type="text" name="r12"></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="r20"></td>
+						<td><input type="text" name="r21"></td>
+						<td><input type="text" name="r22"></td>
+					</tr>
+				</table>
+			</div>
+			<input type="hidden" id="ope" name="ope">
+		</form>
+	</div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
