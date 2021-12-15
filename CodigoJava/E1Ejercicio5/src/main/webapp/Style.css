@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	background: #ededeb;
+}
+.body-cont {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.body-cont h2{
+	margin-bottom: 5vh;
+}
+form {
+	width: 70%;
+	background: #ededeb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+}
+.uno {
+	width: 100%;
+	display: flex;
+}
+.uno input {
+	border: 2px solid black;
+	width: 50%;
+	height: 10vh;
+	background: #ededeb;
+	text-align: center;
+	font-size: 1vw;
+}
+.dos {
+	display: flex;
+	width: 100%;
+}
+.cuatro {
+	width: 40%;
+}
+.cuatro input {
+	border: 2px solid black;
+	height: 10vh;
+	transition: 0.5s;
+}
+.cuatro input:hover {
+	background: black;
+	color: #ededeb;
+}
+.cinco {
+	width: 60%;
+}
+.cinco input {
+	border: 2px solid black;
+	height: 20vh;
+	background: #ededeb;
+	text-align: center;
+	font-size: 1.5vw;
+}
+.tres {
+	display: flex;
+	flex-direction: column;
+}
+input {
+	outline: none;
+}

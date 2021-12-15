@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Quinto Ejercicio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div class="body-cont">
+		<h1>QUINTO EJERCICIO</h1>
+		<h2>Hallar el mcd y el mcm</h2>
+		<form action="add" method="post">
+			<div class="uno">
+				<input type="text" name="num1" placeholder="Ingresar Primer Número">
+				<input type="text" name="num2" placeholder="Ingresar Segundo Número">
+			</div>
+			<div class="dos">
+				<div class="tres cuatro">
+					<input type="submit" onmouseenter="cambio(this)" value="MCM">	
+					<input type="submit" onmouseenter="cambio(this)" value="MCD">	
+				</div>
+				<div class="tres cinco">
+					<input type="text" name="respuesta" placeholder="Resultado" disabled>
+				</div>
+			</div>
+			<input type="hidden" id="ope" name="ope" value="">
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		function cambio(x) {
+			document.getElementById('ope').value = x.value;
+		}
+	</script>
+</body>
+</html>
