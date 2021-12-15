@@ -1,0 +1,10 @@
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\obj\Debug\netcoreapp2.1\E1FEjericicio2.fsprojAssemblyReference.cache
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\obj\Debug\netcoreapp2.1\E1FEjericicio2.AssemblyInfoInputs.cache
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\obj\Debug\netcoreapp2.1\E1FEjericicio2.AssemblyInfo.fs
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\bin\Debug\netcoreapp2.1\E1FEjericicio2.deps.json
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\bin\Debug\netcoreapp2.1\E1FEjericicio2.runtimeconfig.json
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\bin\Debug\netcoreapp2.1\E1FEjericicio2.runtimeconfig.dev.json
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\bin\Debug\netcoreapp2.1\E1FEjericicio2.dll
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\bin\Debug\netcoreapp2.1\E1FEjericicio2.pdb
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\obj\Debug\netcoreapp2.1\E1FEjericicio2.dll
+C:\Users\NOEMI\source\repos\E1FEjericicio2\E1FEjericicio2\obj\Debug\netcoreapp2.1\E1FEjericicio2.pdb
